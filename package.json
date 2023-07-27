@@ -1,11 +1,11 @@
 {
   "name": "extension-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Imdb chrome extension's server",
+  "main": "express-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "",
+    "start": "nodemon express-server.js"
   },
   "keywords": [],
   "author": "",
