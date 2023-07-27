@@ -1,5 +1,6 @@
 const express = require("express");
 const scraper = require("./scraper.js");
+require('dotenv').config();
 
 // Express ile sunucumuzu kuruyoruz
 const server = express();
