@@ -7,8 +7,6 @@ const server = express();
 // Scraper.js dosyasindan Start() fonksiyonunu calistiriyoruz
 scraper.Start();
 
-// bu yaptığım değişikliktir AAA!!!
-
 // Genel sunucu ayarlari izinler vs
 server.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "chrome-extension://" + process.env.IMDB_CHROME_EXTENSIN_ID);
